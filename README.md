@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Best way to configure Hardhat and making tests using Typescript
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+This repo is an amazing example of how you should configure Hardhat. Moreover, I'm using Typescript which is more and more used.
