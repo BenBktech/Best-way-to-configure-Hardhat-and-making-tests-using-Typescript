@@ -11,7 +11,8 @@ import "@nomiclabs/hardhat-etherscan"
 import "./tasks/block-number"
 import "hardhat-gas-reporter"
 import "solidity-coverage" //command terminal : yarn hardhat coverage
-import "@typechain/hardhat" //pour avoir le type de contrat que l'on veut (typescript) dans le fichier de test "test-deploy.ts"
+import "@typechain/hardhat" //to get the type of the contract in the test/test-deploy.ts file
+//Execute the command : yarn hardhat typechain
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || "";
 const PRIVATE_KEY = process.env.PRIVATE_KEY  || "";
